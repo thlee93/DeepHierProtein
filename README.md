@@ -9,11 +9,11 @@ Model that learns a unified metric space for hierarchical protein families of G 
 Code for training the proposed model can be executed with following commands.
 ```
 python main.py --seq_len 1000 \
-			   --charset_size 20 \
-			   --learning_rate 0.001 \
-			   --max_epoch 200 \
-			   --data_dir data \
-			   --output_dir result \
-			   --num_cuda 0
+	       --charset_size 20 \
+	       --learning_rate 0.001 \
+	       --max_epoch 200 \
+	       --data_dir data \
+	       --output_dir result \
+	       --num_cuda 0
 ```
 
